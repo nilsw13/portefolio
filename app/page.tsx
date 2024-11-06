@@ -31,7 +31,7 @@ export default function Component() {
     { id: 2, title: "App de Gestion React", description: "Une application de gestion de tâches avec React et Redux" },
     { id: 3, title: "Portfolio Rétro", description: "Ce portfolio que vous regardez actuellement !" },
     { id: 4, title: "Blog Gatsby", description: "Un blog statique construit avec Gatsby et Contentful" }
-    
+
   ]
 
   useEffect(() => {
@@ -68,7 +68,7 @@ export default function Component() {
 
       <header className="border-b-2 border-[#1a1a1a] p-6 flex justify-between items-center bg-[#f0ead6] sticky top-0 z-10">
         <div className="flex items-center space-x-3">
-          <div className="w-10 h-10 bg-[#4ecdc4] text-[#f0ead6] flex items-center justify-center font-bold text-xl rounded">
+          <div className="w-10 h-10 bg-[#4ecdc4] text-[#f0ead6] flex items-center justify-center font-bold text-xl rounded border border-pink-400">
             NW
           </div>
           <span className="font-semibold text-lg">Nils Wenting</span>

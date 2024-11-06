@@ -2,6 +2,9 @@ import Image from 'next/image'
 import { ChevronLeft } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import TechBadge from '@/components/Badge'
+import { ProjectsSection } from '@/components/ProjectsSection'
+
+
 
 export default function ProjectDetails() {
   return (
@@ -32,14 +35,14 @@ export default function ProjectDetails() {
               alt="Studio AI Screenshot 1"
               width={400}
               height={300}
-              className="border  border-[#1a1a1a]  shadow-[2px_2px_0px_#d1548e] hover:shadow-[4px_4px_0px_#d1548e] hover:-translate-y-0.5 transition-all rounded-none"
+              className="border rounded-lg  border-[#1a1a1a]  shadow-[2px_2px_0px_black] hover:shadow-[4px_4px_0px_black] hover:-translate-y-0.5 transition-all "
             />
             <Image
               src="/placeholder.svg"
               alt="Studio AI Screenshot 2"
               width={400}
               height={300}
-              className="border border-[#1a1a1a]  shadow-[2px_2px_0px_black] hover:shadow-[4px_4px_0px_black] hover:-translate-y-0.5 transition-all rounded-none"
+              className="border border-[#1a1a1a]  shadow-[2px_2px_0px_black] hover:shadow-[4px_4px_0px_black] hover:-translate-y-0.5 transition-all rounded-lg"
             />
           </div>
         </div>
@@ -47,10 +50,7 @@ export default function ProjectDetails() {
         <div className="mb-8 bg-[#f0ead6] border-[#1a1a1a] border-2 shadow-[4px_4px_0px_#d1548e] rounded-none  transition-all hover:shadow-[8px_8px_0px_#d1548e] hover:-translate-y-1 h-auto p-4">
           <h2 className="text-2xl font-semibold mb-4">Besoins du client</h2>
           <ul className="list-disc pl-5 space-y-2">
-            <li>Créer une plateforme SaaS pour la génération d'images personnelles avec l'IA</li>
-            <li>Interface utilisateur intuitive et réactive</li>
-            <li>Intégration d'un système de paiement sécurisé</li>
-            <li>Galerie pour afficher et gérer les images générées</li>
+            <li>{}</li>
           </ul>
         </div>
         
