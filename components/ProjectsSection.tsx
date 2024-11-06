@@ -61,7 +61,7 @@ export const ProjectsSection = () => {
          <Image key="prisma-2" src={PrismaLogo} width={20} height={20} alt='prisma logo'/>],
       specs: [
         <TechBadge key="java-badge-1"  name='Java'/>,
-        <TechBadge key="prisma-badge-2"  name='prisma'/>
+        <TechBadge key="postgres-badge-1"  name='Postgres'/>
         
        ]
     },
@@ -77,7 +77,7 @@ export const ProjectsSection = () => {
          <Image key="prisma-2" src={PrismaLogo} width={20} height={20} alt='prisma logo'/>],
       specs: [
         <TechBadge key="next-badge-2"  name='nextJs'/>,
-        <TechBadge key="prisma-badge-3"  name='prisma'/>
+        <TechBadge key="prisma-badge-2"  name='prisma'/>
         
        ]
     },
@@ -92,7 +92,7 @@ export const ProjectsSection = () => {
          <Image key="prisma-4" src={PrismaLogo} width={20} height={20} alt='prisma logo'/>],
       specs: [
         <TechBadge key="next-badge-3"  name='nextJs'/>,
-        <TechBadge key="prisma-badge-4"  name='prisma'/>
+        <TechBadge key="prisma-badge-3"  name='prisma'/>
         
        ]
     },
@@ -107,7 +107,7 @@ export const ProjectsSection = () => {
          <Image key='prisma-5' src={PrismaLogo} width={20} height={20} alt='prisma logo'/>],
       specs: [
         <TechBadge key="next-badge-4" name='nextJs'/>,
-        <TechBadge key='prisma-badge-5' name='prisma'/>
+        <TechBadge key='prisma-badge-4' name='prisma'/>
         
        ]
     },
@@ -122,7 +122,7 @@ export const ProjectsSection = () => {
       <Image key="prisma-6" src={PrismaLogo} width={20} height={20} alt='prisma logo'/>],
       specs: [
         <TechBadge key='next-badge-5' name='nextJs'/>,
-        <TechBadge key='prisma-badge-6' name='prisma'/>
+        <TechBadge key='prisma-badge-5' name='prisma'/>
         
        ]
       },
