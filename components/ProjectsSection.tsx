@@ -39,10 +39,11 @@ export const ProjectsSection = () => {
       shortDesc: "Studio AI est une plateforme SaaS innovante qui permet aux utilisateurs de générer des images personnelles à l'aide de l'intelligence artificielle",
       description: "Studio AI est une plateforme SaaS innovante qui permet aux utilisateurs de générer des images personnelles à l'aide de l'intelligence artificielle. Le projet a été développé en utilisant Next.js pour le front-end, offrant une expérience utilisateur fluide et réactive. Prisma a été utilisé pour la gestion de la base de données, assurant une interaction efficace avec les données des utilisateurs et des images générées. L'interface utilisateur a été conçue pour être intuitive, permettant aux utilisateurs de facilement personnaliser leurs demandes d'images et de visualiser les résultats en temps réel. Un système de galerie a été implémenté pour que les utilisateurs puissent sauvegarder, organiser et partager leurs créations.",      
       clientNeed: ["Créer une plateforme SaaS pour la génération d'images personnelles avec l'IA", "Interface utilisateur intuitive et réactive", "Intégration d'un système de paiement sécurisé", "Galerie pour afficher et gérer les images générées"],
-      image: [<Image src={NextLogo} width={26} height={20} alt='nextjs logo ' className='bg-[#ffff] text-[#ffff] hover:bg-[#45b7b0] border-[#1a1a1a] border-2 shadow-[2px_2px_0px_#d1548e] hover:shadow-[4px_4px_0px_#d1548e] rounded-full ' />, <Image src={PrismaLogo} width={20} height={20} alt='prisma logo'/>],
+      image: [<Image key="next-1" src={NextLogo} width={26} height={20} alt='nextjs logo ' className='bg-[#ffff] text-[#ffff] hover:bg-[#45b7b0] border-[#1a1a1a] border-2 shadow-[2px_2px_0px_#d1548e] hover:shadow-[4px_4px_0px_#d1548e] rounded-full ' />,
+         <Image key="prisma-1" src={PrismaLogo} width={20} height={20} alt='prisma logo'/>],
       specs: [
-        <TechBadge  name='nextJs'/>,
-        <TechBadge  name='prisma'/>
+        <TechBadge key="next-badge-1"  name='nextJs'/>,
+        <TechBadge  key="prisma-badge-1" name='prisma'/>
         
        ],
        techUsed: ["Next.js pour le développement front-end", "Prisma pour la gestion de la base de données", "API d'IA pour la génération d'images", "Stripe pour l'intégration des paiements", "Vercel pour le déploiement et l'hébergement"]
@@ -56,10 +57,11 @@ export const ProjectsSection = () => {
       id: 2, 
       title: "KMCHANGE", 
       description: "website for a currency exchange company" ,
-      image: [<Image src={NextLogo} width={26} height={20} alt='nextjs logo ' className='bg-[#ffff] text-[#ffff] hover:bg-[#45b7b0] border-[#1a1a1a] border-2 shadow-[2px_2px_0px_#d1548e] hover:shadow-[4px_4px_0px_#d1548e] rounded-full ' />, <Image src={PrismaLogo} width={20} height={20} alt='prisma logo'/>],
+      image: [<Image key="next-2" src={NextLogo} width={26} height={20} alt='nextjs logo ' className='bg-[#ffff] text-[#ffff] hover:bg-[#45b7b0] border-[#1a1a1a] border-2 shadow-[2px_2px_0px_#d1548e] hover:shadow-[4px_4px_0px_#d1548e] rounded-full ' />,
+         <Image key="prisma-2" src={PrismaLogo} width={20} height={20} alt='prisma logo'/>],
       specs: [
-        <TechBadge  name='Java'/>,
-        <TechBadge  name='prisma'/>
+        <TechBadge key="java-badge-1"  name='Java'/>,
+        <TechBadge key="prisma-badge-2"  name='prisma'/>
         
        ]
     },
@@ -71,10 +73,11 @@ export const ProjectsSection = () => {
       id: 3, 
       title: "Kories", 
       description: "Saas plateform that help people to generate personnal bed times stories for their kid with Ai",
-      image: [<Image src={NextLogo} width={26} height={20} alt='nextjs logo ' className='bg-[#ffff] text-[#ffff] hover:bg-[#45b7b0] border-[#1a1a1a] border-2 shadow-[2px_2px_0px_#d1548e] hover:shadow-[4px_4px_0px_#d1548e] rounded-full ' />, <Image src={PrismaLogo} width={20} height={20} alt='prisma logo'/>],
+      image: [<Image key="next-3" src={NextLogo} width={26} height={20} alt='nextjs logo ' className='bg-[#ffff] text-[#ffff] hover:bg-[#45b7b0] border-[#1a1a1a] border-2 shadow-[2px_2px_0px_#d1548e] hover:shadow-[4px_4px_0px_#d1548e] rounded-full ' />,
+         <Image key="prisma-2" src={PrismaLogo} width={20} height={20} alt='prisma logo'/>],
       specs: [
-        <TechBadge  name='nextJs'/>,
-        <TechBadge  name='prisma'/>
+        <TechBadge key="next-badge-2"  name='nextJs'/>,
+        <TechBadge key="prisma-badge-3"  name='prisma'/>
         
        ]
     },
@@ -85,10 +88,11 @@ export const ProjectsSection = () => {
       id: 4, 
       title: "Nathalie Susinie", 
       description: "Website for an osteopath activity",
-      image: [<Image src={NextLogo} width={26} height={20} alt='nextjs logo ' className='bg-[#ffff] text-[#ffff] hover:bg-[#45b7b0] border-[#1a1a1a] border-2 shadow-[2px_2px_0px_#d1548e] hover:shadow-[4px_4px_0px_#d1548e] rounded-full ' />, <Image src={PrismaLogo} width={20} height={20} alt='prisma logo'/>],
+      image: [<Image key="next-4" src={NextLogo} width={26} height={20} alt='nextjs logo ' className='bg-[#ffff] text-[#ffff] hover:bg-[#45b7b0] border-[#1a1a1a] border-2 shadow-[2px_2px_0px_#d1548e] hover:shadow-[4px_4px_0px_#d1548e] rounded-full ' />,
+         <Image key="prisma-4" src={PrismaLogo} width={20} height={20} alt='prisma logo'/>],
       specs: [
-        <TechBadge  name='nextJs'/>,
-        <TechBadge  name='prisma'/>
+        <TechBadge key="next-badge-3"  name='nextJs'/>,
+        <TechBadge key="prisma-badge-4"  name='prisma'/>
         
        ]
     },
@@ -99,10 +103,11 @@ export const ProjectsSection = () => {
       id: 5, 
       title: "Subscription tracker", 
       description: "Une API REST développée avec Node.js et Express",
-      image: [<Image src={NextLogo} width={26} height={20} alt='nextjs logo ' className='bg-[#ffff] text-[#ffff] hover:bg-[#45b7b0] border-[#1a1a1a] border-2 shadow-[2px_2px_0px_#d1548e] hover:shadow-[4px_4px_0px_#d1548e] rounded-full ' />, <Image src={PrismaLogo} width={20} height={20} alt='prisma logo'/>],
+      image: [<Image key="next-5" src={NextLogo} width={26} height={20} alt='nextjs logo ' className='bg-[#ffff] text-[#ffff] hover:bg-[#45b7b0] border-[#1a1a1a] border-2 shadow-[2px_2px_0px_#d1548e] hover:shadow-[4px_4px_0px_#d1548e] rounded-full ' />,
+         <Image key='prisma-5' src={PrismaLogo} width={20} height={20} alt='prisma logo'/>],
       specs: [
-        <TechBadge  name='nextJs'/>,
-        <TechBadge  name='prisma'/>
+        <TechBadge key="next-badge-4" name='nextJs'/>,
+        <TechBadge key='prisma-badge-5' name='prisma'/>
         
        ]
     },
@@ -113,10 +118,11 @@ export const ProjectsSection = () => {
       id: 6, 
       title: "Dashboard Admin", 
       description: "Un tableau de bord administrateur complet avec des graphiques" ,
-      image: [<Image src={NextLogo} width={26} height={20} alt='nextjs logo ' className='bg-[#ffff] text-[#ffff] hover:bg-[#45b7b0] border-[#1a1a1a] border-2 shadow-[2px_2px_0px_#d1548e] hover:shadow-[4px_4px_0px_#d1548e] rounded-full ' />, <Image src={PrismaLogo} width={20} height={20} alt='prisma logo'/>],
+      image: [<Image key="next-6" src={NextLogo} width={26} height={20} alt='nextjs logo ' className='bg-[#ffff] text-[#ffff] hover:bg-[#45b7b0] border-[#1a1a1a] border-2 shadow-[2px_2px_0px_#d1548e] hover:shadow-[4px_4px_0px_#d1548e] rounded-full ' />, 
+      <Image key="prisma-6" src={PrismaLogo} width={20} height={20} alt='prisma logo'/>],
       specs: [
-        <TechBadge  name='nextJs'/>,
-        <TechBadge  name='prisma'/>
+        <TechBadge key='next-badge-5' name='nextJs'/>,
+        <TechBadge key='prisma-badge-6' name='prisma'/>
         
        ]
       },
