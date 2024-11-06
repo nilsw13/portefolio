@@ -1,7 +1,7 @@
 import React, { ReactNode, useState } from 'react'
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { GeometricShape } from '@/app/page'
+
 import Image from 'next/image'
 import NextLogo from '../public/images/nextjs.svg'
 import PrismaLogo from '../public/images/prisma.svg'
@@ -131,7 +131,7 @@ export const ProjectsSection = () => {
 
   return (
     <>
-          <GeometricShape  className='w-16 h-16 bg-[#4ecdc4] opacity-10 -rotate-12 bottom-20 -right-16'/>
+          
 
     <section id="projects" className="mb-32">
         

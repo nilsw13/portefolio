@@ -1,5 +1,4 @@
 'use client'
-
 import { useState, useEffect } from 'react'
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
@@ -18,10 +17,7 @@ const SnakeGame = () => {
   )
 }
 
-// Geometric shape component
-export const GeometricShape = ({ className }: { className: string }) => (
-  <div className={`absolute pointer-events-none ${className}`} />
-)
+
 
 export default function Component() {
   const [activeSection, setActiveSection] = useState('about')
@@ -96,7 +92,7 @@ export default function Component() {
 
       <main className="p-8 max-w-5xl mx-auto relative">
         <section id="about" className="mb-32 relative flex flex-col gap-8">
-          <GeometricShape className="w-12 h-12 bg-[#f7dc6f] opacity-20 rotate-45 -top-6 right-1/4" />
+         
           <div className="text-center mb-8 flex  flex-col gap-4">
             <h1 className="text-6xl font-bold mb-4 text-[#1a1a1a] mt-28">
               Nils Wenting
@@ -120,7 +116,7 @@ export default function Component() {
         </div>   
 
         <section id="contact" className="mb-32 relative">
-          <GeometricShape className="w-20 h-20 bg-[#d1548e] opacity-10 rounded-full -top-10 right-0" />
+          
           <h2 className="text-3xl font-bold mb-6">Contactez-moi</h2>
           <Card className="bg-[#f0ead6] border-[#1a1a1a] border-2 shadow-[4px_4px_0px_black] rounded-none p-6 transition-all hover:shadow-[8px_8px_0px_black] hover:-translate-y-1">
             <form className="space-y-4">
@@ -159,7 +155,7 @@ export default function Component() {
       </main>
 
       <footer className="border-t-2 border-[#1a1a1a] p-6 bg-[#f0ead6] text-center relative">
-        <GeometricShape className="w-16 h-16 bg-[#f7dc6f] opacity-20 rotate-45 -top-8 left-1/4" />
+       
         <div className="flex justify-center space-x-8 mb-4">
           <Link href="#" className="text-[#1a1a1a] hover:text-[#d1548e] transition-colors">
             <Github size={28} />
